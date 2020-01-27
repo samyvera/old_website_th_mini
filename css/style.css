@@ -1,0 +1,117 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    background-color: #224;
+}
+
+body {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#banner {
+    width: 256px;
+    height: 128px;
+    margin: 16px 0;
+    background-image: url('../img/banner.png');
+}
+
+#links {
+    width: 256px;
+    margin: 16px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    transition: .3s;
+}
+
+#label {
+    width: 256px;
+    height: 64px;
+    transition: .3s;
+}
+
+#button {
+    width: 256px;
+    height: 64px;
+    margin: 16px 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    background-image: url('../img/button-b.png');
+    transition: .3s;
+    cursor: pointer;
+}
+#button:focus {
+    outline: none;
+}
+
+#canvas {
+    margin: 16px 0;
+    transition: .3s;
+}
+
+#share {
+    width: 256px;
+    height: 512px;
+    margin: 16px 0;
+    transition: .3s;
+    display: none;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	text-align: center;
+}
+
+#score {
+    width: 256px;
+    height: 128px;
+    margin: 8px 0;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    background-image: url('../img/score.png');
+}
+
+#tweet {
+    width: 256px;
+    height: 64px;
+    margin: 8px 0;
+    background-image: url('../img/tweet.png');
+    transition: .3s;
+}
+#tweet:hover {
+    background-image: url('../img/tweet-hover.png');
+    transition: .3s;
+}
+
+#close {
+    width: 256px;
+    height: 64px;
+    margin: 8px 0;
+	cursor: pointer;
+    background-image: url('../img/retry.png');
+    transition: .3s;
+}
+#close:hover {
+    background-image: url('../img/retry-hover.png');
+    transition: .3s;
+}
+
+.number {
+    width: 28px;
+    height: 32px;
+    margin-top: 48px;
+}
